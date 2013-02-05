@@ -18,6 +18,7 @@ setup(name='SSLExport',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
+        'gevent'
           # -*- Extra requirements: -*-
       ],
       scripts=[
