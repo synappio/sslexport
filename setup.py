@@ -10,8 +10,8 @@ setup(name='SSLExport',
 """,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='',
-      author='',
-      author_email='',
+      author='Rick Copeland',
+      author_email='rick@synapp.io',
       url='',
       license='',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
@@ -20,6 +20,8 @@ setup(name='SSLExport',
       install_requires=[
           # -*- Extra requirements: -*-
       ],
+      scripts=[
+        'scripts/sslexport' ],
       entry_points="""
       # -*- Entry points: -*-
       """,
